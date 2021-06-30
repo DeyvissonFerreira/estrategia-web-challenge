@@ -1,8 +1,8 @@
 SUGEST√ÉO DE MELHORIA 1 - Incluir TAG Novo no Header Menu 'Blog':
 
-DescriÁ„o:
+Descri√ß√£o:
 
-Ao acessar a tela inicial do site do EstratÈgia Concursos, o menu 'Blog' n„o contÈm a tag 'novo', apenas quando o bot„o acesso a tag È apresentada. A sugest„o È adicionar a tag j· na tela inicial do site, para indicar que o blog est· com novidades.
+Ao acessar a tela inicial do site do Estrat√©gia Concursos, o menu 'Blog' n√£o cont√©m a tag 'novo', apenas quando o bot√£o acesso a tag √© apresentada. A sugest√£o √© adicionar a tag j√° na tela inicial do site, para indicar que o blog est√° com novidades.
 
 Anexo:
 
@@ -11,66 +11,66 @@ Incluir TAG Novo no Header Menu 'Blog' - Tela do Blog.jpg
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-SUGEST√ÉO DE MELHORIA 2 - Remover botıes 'Todas as matÈrias' e 'Todos os professores':
+SUGEST√ÉO DE MELHORIA 2 - Remover bot√µes 'Todas as mat√©rias' e 'Todos os professores':
 
-DescriÁ„o:
+Descri√ß√£o:
 
-As p·ginas 'Cursos por matÈria' e 'Cursos por professor' possuem um bot„o 'Todas as matÈrias' e 'Todos os professores', porÈm esses botıes n„o apresentam aÁ„o nenhuma. Verificar a necessidade de ter botıes que n„o apresentam aÁ„o nenhuma.
+As p√°ginas 'Cursos por mat√©ria' e 'Cursos por professor' possuem um bot√£o 'Todas as mat√©rias' e 'Todos os professores', por√©m esses bot√µes n√£o apresentam a√ß√£o nenhuma. Verificar a necessidade de ter bot√µes que n√£o apresentam a√ß√£o nenhuma.
 
 Anexo:
 
-Remover botıes 'Todas as matÈrias' e 'Todos os professores'.gif
+Remover bot√µes 'Todas as mat√©rias' e 'Todos os professores'.gif
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-BUG 1 - Erro gramatical no bot„o da tela 'Cursos por matÈria':
+BUG 1 - Erro gramatical no bot√£o da tela 'Cursos por mat√©ria':
 
-DescriÁ„o:
+Descri√ß√£o:
 
-Ao acessar a tela 'Cursos por matÈria' atravÈs do menu inicial 'POR MAT…RIA', o bot„o abaixo do subtÌtulo da p·gina est· com erro gramatical.
+Ao acessar a tela 'Cursos por mat√©ria' atrav√©s do menu inicial 'POR MAT√âRIA', o bot√£o abaixo do subt√≠tulo da p√°gina est√° com erro gramatical.
 
-Texto atual: "Todos as matÈrias"
-Texto que julgo correto: "Todas os matÈrias"
+Texto atual: "Todos as mat√©rias"
+Texto que julgo correto: "Todas os mat√©rias"
 
 Anexo:
 
-Erro gramatical no bot„o da tela 'Cursos por matÈria'.jpg
+Erro gramatical no bot√£o da tela 'Cursos por mat√©ria'.jpg
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-BUG 2 - Menus seguem para a mesma p·gina:
+BUG 2 - Menus seguem para a mesma p√°gina:
 
-DescriÁ„o:
+Descri√ß√£o:
 
-Os menus 'CURSOS ONLINE PARA CONCURSOS' e 'POR CONCURSO' da p·gina inicial do site seguem para a mesma p·gina 'https://www.estrategiaconcursos.com.br/cursos/concurso/'. … necess·rio verificar se isso foi especificado dessa forma e, se sim, se h· essa necessidade.
+Os menus 'CURSOS ONLINE PARA CONCURSOS' e 'POR CONCURSO' da p√°gina inicial do site seguem para a mesma p√°gina 'https://www.estrategiaconcursos.com.br/cursos/concurso/'. √â necess√°rio verificar se isso foi especificado dessa forma e, se sim, se h√° essa necessidade.
 
 Anexo:
 
-Menus seguem para a mesma p·gina.gif
+Menus seguem para a mesma p√°gina.gif
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-BUG 3 - Acesso inicial ‡ minha conta atravÈs da conta do Google:
+BUG 3 - Acesso inicial √† minha conta atrav√©s da conta do Google:
 
-DescriÁ„o:
+Descri√ß√£o:
 
-Ao realizar o login na p·gina do EstratÈgia Concursos pela primeira vez com a conta do google, o sistema ir· solicitar confirmaÁ„o do e-mail para prosseguir com os acessos, porÈm existem dois problemas.
+Ao realizar o login na p√°gina do Estrat√©gia Concursos pela primeira vez com a conta do google, o sistema ir√° solicitar confirma√ß√£o do e-mail para prosseguir com os acessos, por√©m existem dois problemas.
 
-Primeiro: O e-mail de confirmaÁ„o n„o chega na caixa de entrada.
+Primeiro: O e-mail de confirma√ß√£o n√£o chega na caixa de entrada.
 
-Segundo: As orientaÁıes de envio/confirmaÁ„o do e-mail est· faltando uma informaÁ„o, que aparentemente È o e-mail do usu·rio.
+Segundo: As orienta√ß√µes de envio/confirma√ß√£o do e-mail est√° faltando uma informa√ß√£o, que aparentemente √© o e-mail do usu√°rio.
 
 Anexo:
 
-Acesso inicial ‡ minha conta atravÈs da conta do Google.jpg
+Acesso inicial √† minha conta atrav√©s da conta do Google.jpg
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 BUG 4 - Breadcrumb ao acessar o curso pela Ena Loiola:
 
-DescriÁ„o:
+Descri√ß√£o:
 
-Ao acessar os detalhes de qualquer curso da professor Ena Loiola, È possÌvel ver que o breadcrumb da tela apresenta o nome de outro professor.
+Ao acessar os detalhes de qualquer curso da professor Ena Loiola, √© poss√≠vel ver que o breadcrumb da tela apresenta o nome de outro professor.
 
 Anexo:
 
