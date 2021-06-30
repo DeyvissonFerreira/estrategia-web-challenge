@@ -1,0 +1,77 @@
+SUGESTÃƒO DE MELHORIA 1 - Incluir TAG Novo no Header Menu 'Blog':
+
+Descrição:
+
+Ao acessar a tela inicial do site do Estratégia Concursos, o menu 'Blog' não contém a tag 'novo', apenas quando o botão acesso a tag é apresentada. A sugestão é adicionar a tag já na tela inicial do site, para indicar que o blog está com novidades.
+
+Anexo:
+
+Incluir TAG Novo no Header Menu 'Blog' - Tela Inicial.jpg
+Incluir TAG Novo no Header Menu 'Blog' - Tela do Blog.jpg
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+SUGESTÃƒO DE MELHORIA 2 - Remover botões 'Todas as matérias' e 'Todos os professores':
+
+Descrição:
+
+As páginas 'Cursos por matéria' e 'Cursos por professor' possuem um botão 'Todas as matérias' e 'Todos os professores', porém esses botões não apresentam ação nenhuma. Verificar a necessidade de ter botões que não apresentam ação nenhuma.
+
+Anexo:
+
+Remover botões 'Todas as matérias' e 'Todos os professores'.gif
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+BUG 1 - Erro gramatical no botão da tela 'Cursos por matéria':
+
+Descrição:
+
+Ao acessar a tela 'Cursos por matéria' através do menu inicial 'POR MATÉRIA', o botão abaixo do subtítulo da página está com erro gramatical.
+
+Texto atual: "Todos as matérias"
+Texto que julgo correto: "Todas os matérias"
+
+Anexo:
+
+Erro gramatical no botão da tela 'Cursos por matéria'.jpg
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+BUG 2 - Menus seguem para a mesma página:
+
+Descrição:
+
+Os menus 'CURSOS ONLINE PARA CONCURSOS' e 'POR CONCURSO' da página inicial do site seguem para a mesma página 'https://www.estrategiaconcursos.com.br/cursos/concurso/'. É necessário verificar se isso foi especificado dessa forma e, se sim, se há essa necessidade.
+
+Anexo:
+
+Menus seguem para a mesma página.gif
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+BUG 3 - Acesso inicial à minha conta através da conta do Google:
+
+Descrição:
+
+Ao realizar o login na página do Estratégia Concursos pela primeira vez com a conta do google, o sistema irá solicitar confirmação do e-mail para prosseguir com os acessos, porém existem dois problemas.
+
+Primeiro: O e-mail de confirmação não chega na caixa de entrada.
+
+Segundo: As orientações de envio/confirmação do e-mail está faltando uma informação, que aparentemente é o e-mail do usuário.
+
+Anexo:
+
+Acesso inicial à minha conta através da conta do Google.jpg
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+BUG 4 - Breadcrumb ao acessar o curso pela Ena Loiola:
+
+Descrição:
+
+Ao acessar os detalhes de qualquer curso da professor Ena Loiola, é possível ver que o breadcrumb da tela apresenta o nome de outro professor.
+
+Anexo:
+
+Breadcrumb ao acessar o curso pela Ena Loiola.gif

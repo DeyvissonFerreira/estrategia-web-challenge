@@ -1,0 +1,64 @@
+FUNCIONALIDADE: Buscar Cursos
+
+DADO:
+	O site do Estratégia Concursos esteja disponível.
+
+CENÁRIO DE TESTE 1: Buscar Curso por Professor
+QUANDO:	
+	Clico no menu "POR PROFESSOR"
+	E seleciono professora "Ena Loiola"
+	E escolho o curso "ANEEL (Todos os cargos de Analista Administrativo) Inglês - 2021 (Pré-Edital)"
+ENTÃƒO:
+	Verifico se a quantidade de cursos disponíveis para a professora corresponde ao número apresentado na listagem
+	E verifico se o valor do curso na listagem corresponde ao valor do curso da página de detalhes
+	E verifico se o valor parcelado do curso corresponde ao valor total do curso multiplicado pelo número de parcelas
+	E verifico se o nome do curso está correto
+	E verifico se o valor parcelado e quantidade de parcelas na listagem de curso corresponde ao valor parcelado e quantidade de parcelas do curso da página de detalhes
+
+
+CENÁRIO DE TESTE 2: Buscar Curso por Matéria    
+QUANDO:
+    Clico no menu "POR MATÉRIA"
+    E seleciono a Matéria "Inglês"
+    E escolho o curso "Inglês p/ SEED-AP (Professor - Inglês) - 2021 - Pré-Edital"
+ENTÃƒO:
+	Verifico se a quantidade de cursos disponíveis para a professora corresponde ao número apresentado na listagem
+	E verifico se o valor do curso na listagem corresponde ao valor do curso da página de detalhes
+	E verifico se o valor parcelado do curso corresponde ao valor total do curso multiplicado pelo número de parcelas
+	E verifico se o nome do curso está correto
+	E verifico se o valor parcelado e quantidade de parcelas na listagem de curso corresponde ao valor parcelado e quantidade de parcelas do curso da página de detalhes
+	
+	
+CENÁRIO DE TESTE 3: Validar Tela de Curso Por Região 
+QUANDO:	
+	Clico no menu "POR REGIÃƒO"
+	E clico no estado "Distrito Federal"
+ENTÃƒO:
+	Valido se a listagem de curso corresponde ao Distrito Federal
+	
+	
+CENÁRIO DE TESTE 4: Buscar Curso Inexistente por Professor 
+QUANDO:	
+	Clico no menu "POR PROFESSOR"
+	E seleciono professora "Ena Loiola"
+	E preencho o campo filtro com o curso "Curso Inexistente"
+ENTÃƒO:
+	Valido a mensagem apresentada "Nenhum resultado encontrado."
+	
+	
+CENÁRIO DE TESTE 5: Realizar Login com a conta do Google
+QUANDO:	
+	Clico em "Minha conta"
+	E clico em "Ente com Google"
+	E valido a conta
+ENTÃƒO:
+	Valido se o sistema segue para tela de confirmação de e-mail
+	E apresenta orientações para confirmação da conta
+	
+
+CENÁRIO DE TESTE 6: Realizar busca de cursos pelo campo Search da home page
+QUANDO:	
+	Preencho o campo de busca com algum curso
+	E clico na lupa
+ENTÃƒO:
+	Valido se o sistema apresenta todos os resultados correspondente ao curso, separado por Assinatura, Pacotes e Cursos
