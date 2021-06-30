@@ -2,7 +2,7 @@
 
 ## Instalation And Execution
 
-After clonning the projet, open a terminal in the project root and execute using the command 'mvn clean install' or 'mvn test'.
+After clonning the project, open a terminal in the project root and execute using the command 'mvn clean install' or 'mvn test'.
 
 You can run the suite.xml using an IDE.
 
