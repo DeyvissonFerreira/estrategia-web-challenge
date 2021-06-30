@@ -1,35 +1,35 @@
 FUNCIONALIDADE: Buscar Cursos
 
 DADO:
-	O site do EstratÈgia Concursos esteja disponÌvel.
+	O site do Estrat√©gia Concursos esteja dispon√≠vel.
 
-CEN¡RIO DE TESTE 1: Buscar Curso por Professor
+CEN√ÅRIO DE TESTE 1: Buscar Curso por Professor
 QUANDO:	
 	Clico no menu "POR PROFESSOR"
 	E seleciono professora "Ena Loiola"
-	E escolho o curso "ANEEL (Todos os cargos de Analista Administrativo) InglÍs - 2021 (PrÈ-Edital)"
+	E escolho o curso "ANEEL (Todos os cargos de Analista Administrativo) Ingl√™s - 2021 (Pr√©-Edital)"
 ENT√ÉO:
-	Verifico se a quantidade de cursos disponÌveis para a professora corresponde ao n˙mero apresentado na listagem
-	E verifico se o valor do curso na listagem corresponde ao valor do curso da p·gina de detalhes
-	E verifico se o valor parcelado do curso corresponde ao valor total do curso multiplicado pelo n˙mero de parcelas
-	E verifico se o nome do curso est· correto
-	E verifico se o valor parcelado e quantidade de parcelas na listagem de curso corresponde ao valor parcelado e quantidade de parcelas do curso da p·gina de detalhes
+	Verifico se a quantidade de cursos dispon√≠veis para a professora corresponde ao n√∫mero apresentado na listagem
+	E verifico se o valor do curso na listagem corresponde ao valor do curso da p√°gina de detalhes
+	E verifico se o valor parcelado do curso corresponde ao valor total do curso multiplicado pelo n√∫mero de parcelas
+	E verifico se o nome do curso est√° correto
+	E verifico se o valor parcelado e quantidade de parcelas na listagem de curso corresponde ao valor parcelado e quantidade de parcelas do curso da p√°gina de detalhes
 
 
-CEN¡RIO DE TESTE 2: Buscar Curso por MatÈria    
+CEN√ÅRIO DE TESTE 2: Buscar Curso por Mat√©ria    
 QUANDO:
-    Clico no menu "POR MAT…RIA"
-    E seleciono a MatÈria "InglÍs"
-    E escolho o curso "InglÍs p/ SEED-AP (Professor - InglÍs) - 2021 - PrÈ-Edital"
+    Clico no menu "POR MAT√âRIA"
+    E seleciono a Mat√©ria "Ingl√™s"
+    E escolho o curso "Ingl√™s p/ SEED-AP (Professor - Ingl√™s) - 2021 - Pr√©-Edital"
 ENT√ÉO:
-	Verifico se a quantidade de cursos disponÌveis para a professora corresponde ao n˙mero apresentado na listagem
-	E verifico se o valor do curso na listagem corresponde ao valor do curso da p·gina de detalhes
-	E verifico se o valor parcelado do curso corresponde ao valor total do curso multiplicado pelo n˙mero de parcelas
-	E verifico se o nome do curso est· correto
-	E verifico se o valor parcelado e quantidade de parcelas na listagem de curso corresponde ao valor parcelado e quantidade de parcelas do curso da p·gina de detalhes
+	Verifico se a quantidade de cursos dispon√≠veis para a professora corresponde ao n√∫mero apresentado na listagem
+	E verifico se o valor do curso na listagem corresponde ao valor do curso da p√°gina de detalhes
+	E verifico se o valor parcelado do curso corresponde ao valor total do curso multiplicado pelo n√∫mero de parcelas
+	E verifico se o nome do curso est√° correto
+	E verifico se o valor parcelado e quantidade de parcelas na listagem de curso corresponde ao valor parcelado e quantidade de parcelas do curso da p√°gina de detalhes
 	
 	
-CEN¡RIO DE TESTE 3: Validar Tela de Curso Por Regi„o 
+CEN√ÅRIO DE TESTE 3: Validar Tela de Curso Por Regi√£o 
 QUANDO:	
 	Clico no menu "POR REGI√ÉO"
 	E clico no estado "Distrito Federal"
@@ -37,7 +37,7 @@ ENT√ÉO:
 	Valido se a listagem de curso corresponde ao Distrito Federal
 	
 	
-CEN¡RIO DE TESTE 4: Buscar Curso Inexistente por Professor 
+CEN√ÅRIO DE TESTE 4: Buscar Curso Inexistente por Professor 
 QUANDO:	
 	Clico no menu "POR PROFESSOR"
 	E seleciono professora "Ena Loiola"
@@ -46,19 +46,19 @@ ENT√ÉO:
 	Valido a mensagem apresentada "Nenhum resultado encontrado."
 	
 	
-CEN¡RIO DE TESTE 5: Realizar Login com a conta do Google
+CEN√ÅRIO DE TESTE 5: Realizar Login com a conta do Google
 QUANDO:	
 	Clico em "Minha conta"
 	E clico em "Ente com Google"
 	E valido a conta
 ENT√ÉO:
-	Valido se o sistema segue para tela de confirmaÁ„o de e-mail
-	E apresenta orientaÁıes para confirmaÁ„o da conta
+	Valido se o sistema segue para tela de confirma√ß√£o de e-mail
+	E apresenta orienta√ß√µes para confirma√ß√£o da conta
 	
 
-CEN¡RIO DE TESTE 6: Realizar busca de cursos pelo campo Search da home page
+CEN√ÅRIO DE TESTE 6: Realizar busca de cursos pelo campo Search da home page
 QUANDO:	
 	Preencho o campo de busca com algum curso
 	E clico na lupa
-ENT√ÉO:
+ENT√É∆íO:
 	Valido se o sistema apresenta todos os resultados correspondente ao curso, separado por Assinatura, Pacotes e Cursos
