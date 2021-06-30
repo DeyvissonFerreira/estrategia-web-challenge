@@ -23,11 +23,11 @@ public class HelperBuscarCurso extends Support{
 	}
 	
 	public Professor gerarProfessor() {
-		return new Professor("Ena Loiola", new Curso("ANEEL (Todos os cargos de Analista Administrativo) Inglês - 2021 (Pré-Edital)"));
+		return new Professor("Ena Loiola", new Curso("ANEEL (Todos os cargos de Analista Administrativo) InglÃªs - 2021 (PrÃ©-Edital)"));
 	}
 	
 	public Materia gerarMateria() {
-		return new Materia("Inglês", new Curso("Inglês p/ SEED-AP (Professor - Inglês) - 2021 - Pré-Edital"));
+		return new Materia("InglÃªs", new Curso("InglÃªs p/ SEED-AP (Professor - InglÃªs) - 2021 - PrÃ©-Edital"));
 	}
 	
 	public HelperBuscarCurso acessarMenuPorProfessor() {
@@ -72,12 +72,12 @@ public class HelperBuscarCurso extends Support{
 		// Encontra o registro de acordo com o nome do curso.
 		WebElement cursoEl = page.LISTA_CURSO.stream().filter(p -> p.getAttribute("innerText").contains(curso)).findFirst().get();
 		
-		// Extra as informações de Quantidade de Parcelas e Valor da Parcela.
+		// Extra as informaÃ§Ãµes de Quantidade de Parcelas e Valor da Parcela.
 		String textoParcelas = returnChildElement(cursoEl, page.VALOR_CURSO_LISTA).getAttribute("innerText");
 		valorParcela = Double.parseDouble(textoParcelas.substring(textoParcelas.indexOf("$") + 1).trim().replace(",", "."));
 		quantidadeParcelas = Integer.parseInt(textoParcelas.substring(textoParcelas.indexOf("x") - 2, textoParcelas.indexOf("x")));
 		
-		// Cálculo do valor total do curso.
+		// CÃ¡lculo do valor total do curso.
 		valorCurso = valorParcela * quantidadeParcelas;
 		
 		click(returnChildElement(cursoEl, page.NOME_CURSO));
@@ -87,7 +87,7 @@ public class HelperBuscarCurso extends Support{
 	
 	public HelperBuscarCurso validarLabelQuantidadeCurso() {
 		aguardaElemento(ExpectedConditions.visibilityOfAllElements(page.LISTA_CURSO));
-		validacao(page.LABEL_QNTD_CURSOS, "innerText", String.valueOf(page.LISTA_CURSO.size()).concat(" cursos disponíveis"));
+		validacao(page.LABEL_QNTD_CURSOS, "innerText", String.valueOf(page.LISTA_CURSO.size()).concat(" cursos disponÃ­veis"));
 		
 		return this;
 	}
@@ -95,7 +95,7 @@ public class HelperBuscarCurso extends Support{
 	public HelperBuscarCurso validarCurso(String curso) {
 		validacao(page.NOME_CURSO_DETALHE, "innerText", curso);
 		validacao(page.VALOR_CURSO_DETALHE, "innerText", "R$ ".concat(df.format(Math.rint(valorCurso))));
-		validacao(page.VALOR_CURSO_PARCELA_DETALHE, "innerText", "ou 12x de R$ ".concat(df.format(valorParcela)));
+		validacao(page.VALOR_CURSO_PARCELA_DETALHE, "innerText", "ou " + quantidadeParcelas + "x de R$ ".concat(df.format(valorParcela)));
 		
 		return this;
 	}
