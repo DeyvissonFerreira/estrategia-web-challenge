@@ -24,6 +24,8 @@ public class DriverFactory {
 					System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
 				} else if (plataforma.equalsIgnoreCase("Mac")) {
 					System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver");
+				} else if (plataforma.equalsIgnoreCase("Linux")) {
+					System.setProperty("webdriver.chrome.driver", "chromedriver_linux");
 				}
 				cap = DesiredCapabilities.chrome();
 				ChromeOptions chOptions = new ChromeOptions();
