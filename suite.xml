@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Desafio Estratégia Web" thread-count="1">
     <test name="Validar Curso Por Professor">
-    	<parameter name="plataforma" value="Linux" />
+    	<parameter name="plataforma" value="Windows" />
     	<parameter name="browser" value="Chrome" />
         <classes>
             <class name="test.BuscarCurso" />
