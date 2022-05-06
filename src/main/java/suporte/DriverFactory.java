@@ -30,6 +30,7 @@ public class DriverFactory {
 				cap = DesiredCapabilities.chrome();
 				ChromeOptions chOptions = new ChromeOptions();
 				chOptions.addArguments("--incognito");
+				chOptions.setHeadless(true);
 				cap.setCapability(ChromeOptions.CAPABILITY, chOptions);
 				driver.set(new ChromeDriver(chOptions));
 				break;
